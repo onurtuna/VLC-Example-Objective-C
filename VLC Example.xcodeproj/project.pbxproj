@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D9E23531D886C4700E77CEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9E23521D886C4700E77CEA /* main.m */; };
+		2D9E23561D886C4700E77CEA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9E23551D886C4700E77CEA /* AppDelegate.m */; };
+		2D9E23591D886C4700E77CEA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9E23581D886C4700E77CEA /* ViewController.m */; };
+		2D9E235C1D886C4700E77CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9E235A1D886C4700E77CEA /* Main.storyboard */; };
+		2D9E235E1D886C4700E77CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D9E235D1D886C4700E77CEA /* Assets.xcassets */; };
+		2D9E23611D886C4700E77CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D9E235F1D886C4700E77CEA /* LaunchScreen.storyboard */; };
+		2D9E23691D886C7300E77CEA /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9E23681D886C7300E77CEA /* MobileVLCKit.framework */; };
+		2D9E236B1D88707E00E77CEA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9E236A1D88707E00E77CEA /* libc++.tbd */; };
+		2D9E236D1D88708C00E77CEA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9E236C1D88708C00E77CEA /* AVFoundation.framework */; };
+		2D9E23711D8870FE00E77CEA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9E23701D8870FE00E77CEA /* CoreMedia.framework */; };
+		2D9E23731D88710C00E77CEA /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9E23721D88710C00E77CEA /* VideoToolbox.framework */; };
+		2D9E23791D88714500E77CEA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9E23781D88714500E77CEA /* AudioToolbox.framework */; };
+		2D9E237B1D88715300E77CEA /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9E237A1D88715300E77CEA /* libiconv.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D9E234E1D886C4700E77CEA /* VLC Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VLC Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9E23521D886C4700E77CEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D9E23541D886C4700E77CEA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D9E23551D886C4700E77CEA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D9E23571D886C4700E77CEA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D9E23581D886C4700E77CEA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D9E235B1D886C4700E77CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D9E235D1D886C4700E77CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D9E23601D886C4700E77CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D9E23621D886C4700E77CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D9E23681D886C7300E77CEA /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileVLCKit.framework; path = ../Frameworks/VLC/MobileVLCKit.framework; sourceTree = "<group>"; };
+		2D9E236A1D88707E00E77CEA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		2D9E236C1D88708C00E77CEA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2D9E236E1D88709900E77CEA /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		2D9E23701D8870FE00E77CEA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		2D9E23721D88710C00E77CEA /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		2D9E23741D88711800E77CEA /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		2D9E23761D88713400E77CEA /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		2D9E23781D88714500E77CEA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2D9E237A1D88715300E77CEA /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D9E234B1D886C4700E77CEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9E237B1D88715300E77CEA /* libiconv.tbd in Frameworks */,
+				2D9E23791D88714500E77CEA /* AudioToolbox.framework in Frameworks */,
+				2D9E23731D88710C00E77CEA /* VideoToolbox.framework in Frameworks */,
+				2D9E23711D8870FE00E77CEA /* CoreMedia.framework in Frameworks */,
+				2D9E236D1D88708C00E77CEA /* AVFoundation.framework in Frameworks */,
+				2D9E236B1D88707E00E77CEA /* libc++.tbd in Frameworks */,
+				2D9E23691D886C7300E77CEA /* MobileVLCKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D9E23451D886C4700E77CEA = {
+			isa = PBXGroup;
+			children = (
+				2D9E237A1D88715300E77CEA /* libiconv.tbd */,
+				2D9E23781D88714500E77CEA /* AudioToolbox.framework */,
+				2D9E23761D88713400E77CEA /* CoreVideo.framework */,
+				2D9E23741D88711800E77CEA /* libz.tbd */,
+				2D9E23721D88710C00E77CEA /* VideoToolbox.framework */,
+				2D9E23701D8870FE00E77CEA /* CoreMedia.framework */,
+				2D9E236E1D88709900E77CEA /* CoreAudio.framework */,
+				2D9E236C1D88708C00E77CEA /* AVFoundation.framework */,
+				2D9E236A1D88707E00E77CEA /* libc++.tbd */,
+				2D9E23681D886C7300E77CEA /* MobileVLCKit.framework */,
+				2D9E23501D886C4700E77CEA /* VLC Example */,
+				2D9E234F1D886C4700E77CEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D9E234F1D886C4700E77CEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D9E234E1D886C4700E77CEA /* VLC Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D9E23501D886C4700E77CEA /* VLC Example */ = {
+			isa = PBXGroup;
+			children = (
+				2D9E23541D886C4700E77CEA /* AppDelegate.h */,
+				2D9E23551D886C4700E77CEA /* AppDelegate.m */,
+				2D9E23571D886C4700E77CEA /* ViewController.h */,
+				2D9E23581D886C4700E77CEA /* ViewController.m */,
+				2D9E235A1D886C4700E77CEA /* Main.storyboard */,
+				2D9E235D1D886C4700E77CEA /* Assets.xcassets */,
+				2D9E235F1D886C4700E77CEA /* LaunchScreen.storyboard */,
+				2D9E23621D886C4700E77CEA /* Info.plist */,
+				2D9E23511D886C4700E77CEA /* Supporting Files */,
+			);
+			path = "VLC Example";
+			sourceTree = "<group>";
+		};
+		2D9E23511D886C4700E77CEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D9E23521D886C4700E77CEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D9E234D1D886C4700E77CEA /* VLC Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D9E23651D886C4700E77CEA /* Build configuration list for PBXNativeTarget "VLC Example" */;
+			buildPhases = (
+				2D9E234A1D886C4700E77CEA /* Sources */,
+				2D9E234B1D886C4700E77CEA /* Frameworks */,
+				2D9E234C1D886C4700E77CEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VLC Example";
+			productName = "VLC Example";
+			productReference = 2D9E234E1D886C4700E77CEA /* VLC Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D9E23461D886C4700E77CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = onurtuna;
+				TargetAttributes = {
+					2D9E234D1D886C4700E77CEA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2NXAYK64DU;
+					};
+				};
+			};
+			buildConfigurationList = 2D9E23491D886C4700E77CEA /* Build configuration list for PBXProject "VLC Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D9E23451D886C4700E77CEA;
+			productRefGroup = 2D9E234F1D886C4700E77CEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D9E234D1D886C4700E77CEA /* VLC Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D9E234C1D886C4700E77CEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9E23611D886C4700E77CEA /* LaunchScreen.storyboard in Resources */,
+				2D9E235E1D886C4700E77CEA /* Assets.xcassets in Resources */,
+				2D9E235C1D886C4700E77CEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D9E234A1D886C4700E77CEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9E23591D886C4700E77CEA /* ViewController.m in Sources */,
+				2D9E23561D886C4700E77CEA /* AppDelegate.m in Sources */,
+				2D9E23531D886C4700E77CEA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D9E235A1D886C4700E77CEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D9E235B1D886C4700E77CEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D9E235F1D886C4700E77CEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D9E23601D886C4700E77CEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D9E23631D886C4700E77CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2D9E23641D886C4700E77CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D9E23661D886C4700E77CEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = /Users/onurtuna/iOSApps/Frameworks/VLC;
+				INFOPLIST_FILE = "VLC Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.onurtuna.VLC-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D9E23671D886C4700E77CEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = /Users/onurtuna/iOSApps/Frameworks/VLC;
+				INFOPLIST_FILE = "VLC Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.onurtuna.VLC-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D9E23491D886C4700E77CEA /* Build configuration list for PBXProject "VLC Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D9E23631D886C4700E77CEA /* Debug */,
+				2D9E23641D886C4700E77CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D9E23651D886C4700E77CEA /* Build configuration list for PBXNativeTarget "VLC Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D9E23661D886C4700E77CEA /* Debug */,
+				2D9E23671D886C4700E77CEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D9E23461D886C4700E77CEA /* Project object */;
+}
